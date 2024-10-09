@@ -43,19 +43,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the project by modifying files in the `app/` directory. The page auto-updates as you edit.
 
-### Environment Variables
-To run this project, you will need to add the following environment variables to your `.env.local` file:
-
-```bash
-NEXT_PUBLIC_URL=http://localhost:3000
-MONGODB_URI="your-mongodb-uri"
-NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET="your-nextauth-secret"
-RAZORPAY_ID="your-razorpay-id"
-RAZORPAY_SECRET="your-razorpay-secret"
-```
-
----
 
 ## Learn More
 
@@ -64,9 +51,3 @@ To learn more about the tools used in this project, check out the following reso
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [GSAP Documentation](https://greensock.com/docs/) - learn how to create animations with GSAP.
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs) - explore how to build responsive designs with Tailwind.
-
-## Deploy on Vercel
-
-The easiest way to deploy this Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
-
-For more details, check out [Next.js deployment documentation](https://nextjs.org/docs/deployment).
